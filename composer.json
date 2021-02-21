@@ -1,0 +1,7 @@
+{
+    "name": "vnikitin-web/hw_3_2",
+    "description": "OTUS Homework. Lesson 3. Work 2",
+    "require": {
+        "php": ">=7.4"
+    }
+}
