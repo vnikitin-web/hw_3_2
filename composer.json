@@ -1,7 +1,23 @@
 {
     "name": "vnikitin-web/hw_3_2",
     "description": "OTUS Homework. Lesson 3. Work 2",
+    "authors": [  
+		{  
+			"name": "Vladimir Nikitin",  
+			"email": "burnfigure@gmail.com"  
+		}
+	],
     "require": {
-        "php": ">=7.4"
-    }
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev":{
+    	"phpunit/phpunit": "9.*.*"
+    },
+    "autoload": {  
+		"psr-4": {  
+			"MyPackage\\": "src"  
+		}  
+	}  
 }
+
